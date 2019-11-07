@@ -1,7 +1,7 @@
 # 480CodingProject
 
 ## HONOR CODE: This work is mine unless otherwise cited.
-# Previous work includes contributions from Spencer Huang, Christopher Cook, and Dipto Mukherjee.
+## Previous work includes contributions from Spencer Huang, Christopher Cook, and Dipto Mukherjee.
 
 
 ## Usage Instructions:
