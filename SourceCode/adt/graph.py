@@ -1,6 +1,6 @@
 #HONOR CODE: This work is ours unless cited
 from __future__ import print_function
-from node import Node
+from adt.node import Node
 import os
 
 # Graph data structure
@@ -95,8 +95,3 @@ class Graph(object):
             self.__read__data__file__(f_t,'t')
             self.__read__data__file__(f_b,'b')
             self.__read__data__file__(f_p,'p')
-
-
-
-
-

@@ -16,6 +16,3 @@ class Node(object):
             return True
         else:
             return False
-
-
-
