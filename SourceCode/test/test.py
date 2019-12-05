@@ -1,3 +1,4 @@
+#Test case that handles generalized testing of the graph
 from adt.graph import Graph
 
 map_of_cities = Graph()

@@ -7,7 +7,7 @@ def display_all_paths(path_list,destination):
 
     for path in path_list:
 
-        print("ROUTE {} [plotted at map{}.html]".format(path_count,path_count))
+        print("ROUTE {}".format(path_count,path_count))
         print('---------------------------------------')
 
         city_count = 0
@@ -28,5 +28,3 @@ def display_all_paths(path_list,destination):
 
         path_count += 1
     pass
-
-

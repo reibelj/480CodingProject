@@ -1,13 +1,15 @@
+# import all data structures and algorithms
 from adt.graph import Graph
 from algorithm.algorithms import *
 from plot.plot import *
 from display.display import *
-def main():
-    whichType = int(input("Do you want to find optimal path (1) or all paths (2)\n"))
 
+def main():
+    whichType = int(input("Do you want to find optimal travel path? (1) or all travel paths? (2)\n"))
+    print(" Destination options include: Buffalo, Erie, Harrisburgh, Meadville, NewYorkCity,  Pittsburg,  Philadelphia, StateCollege, and WashingtonDC ")
     if(whichType == 1):
-        source = str(raw_input("Enter source : "))
-        destination = str(raw_input("Enter destination: "))
+        source = str(input("Enter source (Starting Destination): "))
+        destination = str(input("Enter destination (Ending Destination): "))
 
         map_of_cities = Graph()
         map_of_cities.makeGraphFromData('data')
@@ -26,9 +28,9 @@ def main():
 
         time_taken = float(input("Enter the time taken in hours: "))
 
-        source = str(raw_input("Enter source : "))
+        source = str(input("Enter source : "))
 
-        destination = str(raw_input("Enter destination: "))
+        destination = str(input("Enter destination: "))
 
         map_of_cities = Graph()
         map_of_cities.makeGraphFromData('data')
