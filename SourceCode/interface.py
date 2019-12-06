@@ -6,7 +6,7 @@ from display.display import *
 
 def main():
     whichType = int(input("Do you want to find optimal travel path? (1) or all travel paths? (2)\n"))
-    print(" Destination options include: Buffalo, Erie, Harrisburgh, Meadville, NewYorkCity,  Pittsburg,  Philadelphia, StateCollege, and WashingtonDC ")
+    print(" Destination options include: Buffalo, Erie, Harrisburgh, Meadville, NewYorkCity,  Pittsburgh,  Philadelphia, StateCollege, and WashingtonDC ")
     if(whichType == 1):
         source = str(input("Enter source (Starting Destination): "))
         destination = str(input("Enter destination (Ending Destination): "))
